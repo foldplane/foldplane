@@ -20,3 +20,9 @@ For deterministic verification, run:
 ```sh
 node --test packages/compat/tests/generate-report.test.mjs
 ```
+
+Captured baselines can be passed to the same generator without a manual transformation step. The deterministic local target path is covered by:
+
+```sh
+node --test packages/compat/tests/capture-baseline.test.mjs
+```
