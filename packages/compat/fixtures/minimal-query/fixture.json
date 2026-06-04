@@ -1,0 +1,9 @@
+{
+  "fixtureApp": "minimal-query",
+  "cases": [
+    {
+      "id": "returns-message",
+      "feature": "queries.basic-return-value"
+    }
+  ]
+}
